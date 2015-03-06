@@ -29,6 +29,8 @@ namespace DocumentComparison
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Common.SetLicense();
+
             if (!IsPostBack)
             {
                 this.CurrentFolder = Common.DataDir;
@@ -230,6 +232,8 @@ namespace DocumentComparison
         [WebMethod]
         public static ArrayList GetDocumentData(string filePath, string sessionID)
         {
+            Common.SetLicense();
+
             ArrayList result = new ArrayList();
             try
             {
@@ -301,6 +305,8 @@ namespace DocumentComparison
         [WebMethod]
         public static ArrayList CompareDocuments(string document1, string document2)
         {
+            Common.SetLicense();
+
             ArrayList result = new ArrayList();
             try
             {

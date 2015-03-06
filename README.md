@@ -15,7 +15,7 @@ It compares text from two selected Word documents and shows the result in a web 
 
 Newly added text is formatted in blue color. Deleted text is formatted in red color and strike-through font settings. Page navigation bar is on top and you can browser the pages by clicking on the page number.
 
-![Compare Word documents](http://www.aspose.com/blogs/wp-content/uploads/2015/02/01-Compare-Documents.jpg)
+![Compare Word documents](http://www.aspose.com/blogs/wp-content/uploads/2015/03/Blog-Post.jpg)
 
 ##Upload Word Documents for Comparison
 You can upload the documents from your desktop or device using the file uploader. Folders can be created to manage the files better.

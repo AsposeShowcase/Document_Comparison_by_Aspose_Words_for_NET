@@ -12,6 +12,7 @@ namespace DocumentComparison
         public static string Success = "success";
         public static string Error = "error";
         public static string[] separator = {"|**|"};
+        private static bool isLicSet = false;
 
         /// <summary>
         /// Get the size of file in string format
@@ -51,6 +52,22 @@ namespace DocumentComparison
                 result = dateTime.ToString("M/d/y");
 
             return result;
+        }
+
+        /// <summary>
+        /// Set license here
+        /// </summary>
+        public static void SetLicense()
+        {
+            // Path to license file
+            String licFile = @"Aspose.Total.lic";
+
+            // Set the license, if not already set
+            if (isLicSet == false)
+            {
+                //Aspose.Words.License licWords = new Aspose.Words.License();
+                //licWords.SetLicense(licFile);
+            }
         }
     }
 }
