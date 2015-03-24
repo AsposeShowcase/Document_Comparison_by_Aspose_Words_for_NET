@@ -63,7 +63,7 @@ namespace DocumentComparison
             //String licFile = @"d:\data\aspose\lic\Aspose.Total.lic";
 
             // Set the license, if not already set
-            if (isLicSet == false)
+            if (isLicSet == false)//
             {
                 //Aspose.Words.License licWords = new Aspose.Words.License();
                 //licWords.SetLicense(licFile);
