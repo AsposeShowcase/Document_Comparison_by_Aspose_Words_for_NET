@@ -10,4 +10,4 @@ Compare two Microsoft Word documents and see the differences between them. You c
  - Compare documents from web URL
  - Web based Microsoft Word document viewer
 
-Read more on this project on our [documentation website](www.aspose.com/docs/display/wordsnet/1.1.1.+Introduction).
+Read more on this project on our [documentation website](http://www.aspose.com/docs/display/wordsnet/1.1.1.+Introduction).
