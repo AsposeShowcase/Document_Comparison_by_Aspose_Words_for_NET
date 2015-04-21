@@ -60,13 +60,21 @@ namespace DocumentComparison
         public static void SetLicense()
         {
             // Path to license file
-            //String licFile = @"d:\data\aspose\lic\Aspose.Total.lic";
+            String licFile = @"d:\data\aspose\lic\Aspose.Total.lic";
 
             // Set the license, if not already set
             if (isLicSet == false)//
             {
-                //Aspose.Words.License licWords = new Aspose.Words.License();
-                //licWords.SetLicense(licFile);
+                try
+                {
+                    Aspose.Words.License licWords = new Aspose.Words.License();
+                    licWords.SetLicense(licFile);
+                    Console.WriteLine("License set.");
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine("License NOT set.");
+                }
             }
         }
     }
