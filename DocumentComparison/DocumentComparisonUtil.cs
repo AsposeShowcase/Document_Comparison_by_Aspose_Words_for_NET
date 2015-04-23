@@ -39,12 +39,6 @@ namespace DocumentComparison
                 switch (revision.RevisionType)
                 {
                     case RevisionType.Insertion:
-                        if (revision.ParentNode.GetType() == typeof(Run))
-                        {
-                            Run run = (Run)revision.ParentNode;
-                            //foreach(Run run in para.Runs)
-                            //run.Font.Color = Color.Blue;
-                        }
                         added++;
                         break;
                     case RevisionType.Deletion:

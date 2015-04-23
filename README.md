@@ -6,6 +6,8 @@ Compare two Microsoft Word documents and see the differences between them. You c
 ##Features
 
  - Compare Microsoft Word documents
+ - Compare text in paragraphs, tables, header, footer etc
+ - Compare and highlight which table cells and rows are being added or deleted
  - Upload and compare documents
  - Compare documents from web URL
  - Web based Microsoft Word document viewer
