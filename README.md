@@ -1,3 +1,6 @@
+# IMPORTANT NOTICE
+This project is now part of [Aspose.Words for .NET repository](https://github.com/asposewords/Aspose_Words_NET), which has everything related to the source code, including Examples, Showcase projects and Plugins. All future updates will be maintained there.
+
 # Document Comparison by Aspose.Words for .NET 1.2
 Compare two Microsoft Word documents and see the differences between them. You can see what new text is added, what is deleted and unchanged.
 
